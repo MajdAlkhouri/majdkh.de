@@ -1,0 +1,41 @@
+header {
+position: absolute;
+left: 0;
+right: 0;
+height: 80px;
+z-index: 1; //um den header zuerst anzuzeigen 
+padding-right: 120px;
+padding-left: 120px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+
+a{
+    color: white;
+    text-decoration: none;
+    margin-left: 32px;
+    font-family: 'Circular-Loom';
+    font-weight: 500;
+    font-size: 25px;
+   
+
+    &:hover {
+        color:rgba(0, 255, 251, 0.8);
+        text-decoration: underline;
+    
+       
+    }
+
+
+}
+
+
+
+img{
+    height: 80px;
+}
+
+
+
+}
+

@@ -7,5 +7,6 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AppComponent  {
   //wie onload bei body
+  title : any;
  
 }
